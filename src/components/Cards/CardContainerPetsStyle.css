@@ -1,0 +1,30 @@
+.carousel-control-next-icon {
+    background-image: none;
+    margin-left: 200px;
+    /* Remove the default arrow icon */
+}
+
+.carousel-control-prev-icon {
+    background-image: none;
+    margin-right: 200px;
+}
+
+.carousel-control-prev-icon::after,
+.carousel-control-next-icon::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+}
+
+.carousel-control-prev-icon::after {
+    transform: rotate(135deg);
+    margin-right: 10px;
+}
+
+.carousel-control-next-icon::after {
+    transform: rotate(-45deg);
+    margin-left: 10px;
+}

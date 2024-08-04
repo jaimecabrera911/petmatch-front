@@ -1,7 +1,8 @@
-.barra-navegacion{
+.barra-navegacion {
     background-color: #FFFAF1;
+    font-weight: bold;
 }
 
-.titulo-boton:hover{
-    color: #FF585F;
+.titulo-boton:hover {
+    color: #FF585F !important;
 }

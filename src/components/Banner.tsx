@@ -1,6 +1,6 @@
 import banner_dog from '../assets/images/banner-dog.png'
 import './BannerStyle.css'
-import CardBanner from './CardBanner'
+import CardBanner from './Cards/CardBanner'
 import hueso_banner from '../assets/images/hueso-banner.png'
 
 const Banner = () => {
