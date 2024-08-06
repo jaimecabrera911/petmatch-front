@@ -3,6 +3,7 @@
 :root {
   --color-cereza: #FF585F;
   --color-amarillo: #FABE4E;
+  --color-hueso: #FFFAF1
 }
 
 #root {
@@ -18,4 +19,12 @@
 
 .color-amarillo {
   color: var(--color-amarillo)
+}
+
+.color-hueso {
+  color: var(--color-hueso)
+}
+
+.bg-hueso {
+  background-color: var(--color-hueso)
 }

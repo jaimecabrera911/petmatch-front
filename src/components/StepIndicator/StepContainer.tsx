@@ -1,5 +1,5 @@
 import StepIndicator from "./StepIndicator";
-import image_step from "../../assets/images/image-step.jpg";
+import image_step from "../../assets/images/image-step.png";
 
 function StepContainer() {
     return (

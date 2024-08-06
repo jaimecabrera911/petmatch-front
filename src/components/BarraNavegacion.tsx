@@ -6,7 +6,7 @@ import donar from '../assets/icons/image4.png'
 import denunciar from '../assets/icons/image5.png'
 import contactar from '../assets/icons/image6.png'
 import entrar from '../assets/icons/image7.png'
-import logo from '../assets/icons/logo.jpg'
+import logo from '../assets/icons/logo.png'
 import './BarraNavegacion.css'
 
 const BarraNavegacion = () => {

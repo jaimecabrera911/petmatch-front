@@ -10,13 +10,13 @@ const VideoContainer = () => {
 
             <div className="row">
                 <div className="col">
-                    <VideoPet url='https://www.youtube.com/embed/sD9gTAFDq40?si=X-QUtgAUvuUhE6Mg&amp;controls=0' />
+                    <VideoPet url='https://www.youtube.com/embed/sD9gTAFDq40?si=X-QUtgAUvuUhE6Mg&amp;controls=0' titulo="Higiene" />
                 </div>
                 <div className="col">
-                    <VideoPet url='https://www.youtube.com/embed/sD9gTAFDq40?si=X-QUtgAUvuUhE6Mg&amp;controls=0' />
+                    <VideoPet url='https://www.youtube.com/embed/sD9gTAFDq40?si=X-QUtgAUvuUhE6Mg&amp;controls=0' titulo="Cuidados" />
                 </div>
                 <div className="col">
-                    <VideoPet url='https://www.youtube.com/embed/sD9gTAFDq40?si=X-QUtgAUvuUhE6Mg&amp;controls=0' />
+                    <VideoPet url='https://www.youtube.com/embed/sD9gTAFDq40?si=X-QUtgAUvuUhE6Mg&amp;controls=0' titulo="Alimentación" />
                 </div>
             </div>
         </div >
