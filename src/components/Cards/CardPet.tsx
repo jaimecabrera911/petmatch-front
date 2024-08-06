@@ -30,7 +30,9 @@ function CardPet(dataPet: DataPet) {
                         <div
                             className="row justify-content-center align-items-center g-2"
                         >
-                            <img src={pet} className="w-75" alt="..." />
+                            <div className="container rounded-top-4 bg-amarillo">
+                                <img src={pet} className="w-75" alt="..." />
+                            </div>
                         </div>
 
                         <div className="card-body">
