@@ -1,5 +1,6 @@
 import React from 'react'
 import './BotonNavegacionStyle.css'
+import { Link } from 'react-router-dom'
 
 interface Propiedades {
     icono: string,
@@ -12,9 +13,7 @@ const BotonNavegacion: React.FC<Propiedades> = (props) => {
     return (
         <div className="d-inline-block text-center me-5">
             <img src={icono} alt="" width="45rem" />
-            <a className='nav-link titulo-boton' href={link}>
-                {titulo}
-            </a>
+            <Link className='nav-link titulo-boton' to={link} >{titulo}</Link>
         </div>
     )
 }

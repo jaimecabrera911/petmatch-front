@@ -15,7 +15,7 @@ const BarraNavegacion = () => {
             <nav className="navbar navbar-expand-lg navbar-light barra-navegacion">
                 <div className="container-fluid">
                     <div className="container">
-                        <a className="navbar-brand" href="#">
+                        <a className="navbar-brand" href="/">
                             <img src={logo} alt="Bootstrap" width="80" />
                         </a>
                     </div>
@@ -26,25 +26,25 @@ const BarraNavegacion = () => {
                         <div className="d-flex">
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                    <BotonNavegacion key="inicio" icono={inicio} titulo='Inicio' link='https://www.google.com/search?q=google&oq=google&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyEwgBEC4YgwEYxwEYsQMY0QMYgAQyDQgCEAAYgwEYsQMYgAQyBggDEEUYPDIGCAQQRRg8MgYIBRBFGEEyBggGEAUYQDIGCAcQRRg80gEIMzEwNWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8' />
+                                    <BotonNavegacion key="inicio" icono={inicio} titulo='Inicio' link='/' />
                                 </li>
                                 <li className="nav-item">
-                                    <BotonNavegacion key="inicio" icono={requisitos} titulo='Requisitos' link='https://www.google.com/search?q=google&oq=google&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyEwgBEC4YgwEYxwEYsQMY0QMYgAQyDQgCEAAYgwEYsQMYgAQyBggDEEUYPDIGCAQQRRg8MgYIBRBFGEEyBggGEAUYQDIGCAcQRRg80gEIMzEwNWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8' />
+                                    <BotonNavegacion key="requisitos" icono={requisitos} titulo='Requisitos' link='https://www.google.com/search?q=google&oq=google&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyEwgBEC4YgwEYxwEYsQMY0QMYgAQyDQgCEAAYgwEYsQMYgAQyBggDEEUYPDIGCAQQRRg8MgYIBRBFGEEyBggGEAUYQDIGCAcQRRg80gEIMzEwNWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8' />
                                 </li>
                                 <li className="nav-item">
-                                    <BotonNavegacion key="inicio" icono={tips} titulo='Tips' link='https://www.google.com/search?q=google&oq=google&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyEwgBEC4YgwEYxwEYsQMY0QMYgAQyDQgCEAAYgwEYsQMYgAQyBggDEEUYPDIGCAQQRRg8MgYIBRBFGEEyBggGEAUYQDIGCAcQRRg80gEIMzEwNWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8' />
+                                    <BotonNavegacion key="tips" icono={tips} titulo='Tips' link='https://www.google.com/search?q=google&oq=google&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyEwgBEC4YgwEYxwEYsQMY0QMYgAQyDQgCEAAYgwEYsQMYgAQyBggDEEUYPDIGCAQQRRg8MgYIBRBFGEEyBggGEAUYQDIGCAcQRRg80gEIMzEwNWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8' />
                                 </li>
                                 <li className="nav-item">
-                                    <BotonNavegacion key="inicio" icono={donar} titulo='Donar' link='https://www.google.com/search?q=google&oq=google&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyEwgBEC4YgwEYxwEYsQMY0QMYgAQyDQgCEAAYgwEYsQMYgAQyBggDEEUYPDIGCAQQRRg8MgYIBRBFGEEyBggGEAUYQDIGCAcQRRg80gEIMzEwNWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8' />
+                                    <BotonNavegacion key="donar" icono={donar} titulo='Donar' link='https://www.google.com/search?q=google&oq=google&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyEwgBEC4YgwEYxwEYsQMY0QMYgAQyDQgCEAAYgwEYsQMYgAQyBggDEEUYPDIGCAQQRRg8MgYIBRBFGEEyBggGEAUYQDIGCAcQRRg80gEIMzEwNWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8' />
                                 </li>
                                 <li className="nav-item">
-                                    <BotonNavegacion key="inicio" icono={denunciar} titulo='Denunciar' link='https://www.google.com/search?q=google&oq=google&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyEwgBEC4YgwEYxwEYsQMY0QMYgAQyDQgCEAAYgwEYsQMYgAQyBggDEEUYPDIGCAQQRRg8MgYIBRBFGEEyBggGEAUYQDIGCAcQRRg80gEIMzEwNWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8' />
+                                    <BotonNavegacion key="denunciar" icono={denunciar} titulo='Denunciar' link='https://www.google.com/search?q=google&oq=google&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyEwgBEC4YgwEYxwEYsQMY0QMYgAQyDQgCEAAYgwEYsQMYgAQyBggDEEUYPDIGCAQQRRg8MgYIBRBFGEEyBggGEAUYQDIGCAcQRRg80gEIMzEwNWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8' />
                                 </li>
                                 <li className="nav-item">
-                                    <BotonNavegacion key="inicio" icono={contactar} titulo='Contactar' link='https://www.google.com/search?q=google&oq=google&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyEwgBEC4YgwEYxwEYsQMY0QMYgAQyDQgCEAAYgwEYsQMYgAQyBggDEEUYPDIGCAQQRRg8MgYIBRBFGEEyBggGEAUYQDIGCAcQRRg80gEIMzEwNWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8' />
+                                    <BotonNavegacion key="contactar" icono={contactar} titulo='Contactar' link='https://www.google.com/search?q=google&oq=google&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyEwgBEC4YgwEYxwEYsQMY0QMYgAQyDQgCEAAYgwEYsQMYgAQyBggDEEUYPDIGCAQQRRg8MgYIBRBFGEEyBggGEAUYQDIGCAcQRRg80gEIMzEwNWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8' />
                                 </li>
                                 <li className="nav-item">
-                                    <BotonNavegacion key="inicio" icono={entrar} titulo='Entrar' link='https://www.google.com/search?q=google&oq=google&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyEwgBEC4YgwEYxwEYsQMY0QMYgAQyDQgCEAAYgwEYsQMYgAQyBggDEEUYPDIGCAQQRRg8MgYIBRBFGEEyBggGEAUYQDIGCAcQRRg80gEIMzEwNWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8' />
+                                    <BotonNavegacion key="login" icono={entrar} titulo='Entrar' link='/users' />
                                 </li>
 
                             </ul>
