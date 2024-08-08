@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom"
-import "./SingUpStep2.css"
 
 const SingUpStep2 = () => {
     return (

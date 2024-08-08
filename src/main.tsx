@@ -10,6 +10,7 @@ import SingUpStep1 from './components/SingUp/SingUpStep1'
 import SingUpStep2 from './components/SingUp/SingUpStep2'
 import "./index.css"
 import SurveyPage from './pages/SurveyPage'
+import AdoptionPage from './pages/AdoptionPage'
 
 const router = createBrowserRouter([
   {
@@ -39,13 +40,13 @@ const router = createBrowserRouter([
     ]
   },
   {
+    path: "/adoption",
+    element: <AdoptionPage />
+  },
+  {
     path: "/surveys",
     element: <SurveyPage />,
   },
-  {
-    path: "/home",
-    element: <div>Home</div>,
-  }
 ]);
 
 

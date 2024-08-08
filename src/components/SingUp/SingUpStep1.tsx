@@ -1,6 +1,4 @@
-// src/Registration.js
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './SingUpStep1.css'
 import { Link } from 'react-router-dom';
 
 const SingUpStep1 = () => {
