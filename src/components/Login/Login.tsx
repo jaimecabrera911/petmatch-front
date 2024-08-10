@@ -13,7 +13,6 @@ const Login = () => {
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         const user = userRef.current?.value;
-        const password = passwordRef.current?.value;
         if (user == "adoptante") {
             navigate("/adoption")
         } else if (user == "gestor") {
