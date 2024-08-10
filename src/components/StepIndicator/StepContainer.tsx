@@ -3,7 +3,7 @@ import image_step from "../../assets/images/image-step.png";
 
 function StepContainer() {
     return (
-        <div className="container">
+        <div id="steps" className="container">
             <div className="row">
                 <div className="col col-5">
                     <div className="container">

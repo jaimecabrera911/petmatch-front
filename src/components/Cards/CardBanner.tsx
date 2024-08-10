@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './CardBannerStyle.css'
 
 const CardBanner = () => {
@@ -12,7 +13,7 @@ const CardBanner = () => {
                         <div
                             className="row justify-content-center align-items-center g-2"
                         >
-                            <a href="#" className="btn boton-registro w-25">Registrate</a>
+                            <Link to="/users/singup-1" className="btn boton-registro w-25">Registrate</Link>
                         </div>
 
                     </div>

@@ -45,6 +45,9 @@ const Footer = () => {
                                 <textarea className="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style={{ height: "100px" }}></textarea>
                                 <label htmlFor="floatingTextarea2">Mensaje</label>
                             </div>
+                            <div className='d-flex justify-content-end'>
+                                <button type='submit' className='btn btn-danger mt-3'>Enviar</button>
+                            </div>
                         </form>
                     </div>
                 </div>

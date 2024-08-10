@@ -1,11 +1,11 @@
 import InfoPet from '../components/InfoPet'
-import UserLayout from '../layouts/UserLayout'
+import ManageLayout from '../layouts/ManageLayout'
 import "./SurveyStyle.css"
 
 const AdoptionPage = () => {
     return (
         <div>
-            <UserLayout />
+            <ManageLayout role='Adoptante' />
             <div className="container p-5">
                 <h3>Selecciona el proceso:</h3>
                 <div className="container mt-5">

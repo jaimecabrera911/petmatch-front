@@ -1,7 +1,6 @@
 import Banner from "../components/Banner"
 import CardContainerPets from "../components/Cards/CardContainerPets"
 import Filtros from "../components/Filtros"
-import InfoPet from "../components/InfoPet"
 import Introduccion from "../components/Introduccion"
 import StepContainer from "../components/StepIndicator/StepContainer"
 import VideoContainer from "../components/Video/VideoContainer"

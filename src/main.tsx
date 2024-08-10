@@ -11,6 +11,7 @@ import SingUpStep2 from './components/SingUp/SingUpStep2'
 import "./index.css"
 import SurveyPage from './pages/SurveyPage'
 import AdoptionPage from './pages/AdoptionPage'
+import ManagePage from './pages/ManagePage'
 
 const router = createBrowserRouter([
   {
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
   {
     path: "/surveys",
     element: <SurveyPage />,
+  },
+  {
+    path: "/manage",
+    element: <ManagePage />,
   },
 ]);
 

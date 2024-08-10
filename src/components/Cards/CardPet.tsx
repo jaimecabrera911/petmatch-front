@@ -50,10 +50,12 @@ function CardPet(dataPet: DataPet) {
                             <p className="card-title">Desparasitado: {dataPet.desparasitado ? "Si" : "No"}</p>
                             <p className="card-text">Vacunado: {dataPet.vacunado ? "Si" : "No"}</p>
                             <p className="card-text">Esterilizado: {dataPet.esterilizado ? "Si" : "No"}</p>
-                            <h5 className="card-title">Características</h5>
-                            {dataPet.caracteristicas.map((caracteristica, index) => (
-                                <p key={index} className="card-text">{caracteristica}</p>
-                            ))}
+                            <h5 className="card-title">Comportamiento</h5>
+                            <div>
+                                <p>Apto para niños: Si</p>
+                                <p>Convive con perros: Si</p>
+                                <p>Convive con gatos: No</p>
+                            </div>
                             <a href="#" className="btn boton"> ¡Adoptame!</a>
                         </div>
                     </div>

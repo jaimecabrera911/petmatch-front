@@ -29,7 +29,7 @@ const BarraNavegacion = () => {
                                     <BotonNavegacion key="inicio" icono={inicio} titulo='Inicio' link='/' />
                                 </li>
                                 <li className="nav-item">
-                                    <BotonNavegacion key="requisitos" icono={requisitos} titulo='Requisitos' link='https://www.google.com/search?q=google&oq=google&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyEwgBEC4YgwEYxwEYsQMY0QMYgAQyDQgCEAAYgwEYsQMYgAQyBggDEEUYPDIGCAQQRRg8MgYIBRBFGEEyBggGEAUYQDIGCAcQRRg80gEIMzEwNWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8' />
+                                    <BotonNavegacion key="requisitos" icono={requisitos} titulo='Requisitos' link='#steps' />
                                 </li>
                                 <li className="nav-item">
                                     <BotonNavegacion key="tips" icono={tips} titulo='Tips' link='https://www.google.com/search?q=google&oq=google&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyEwgBEC4YgwEYxwEYsQMY0QMYgAQyDQgCEAAYgwEYsQMYgAQyBggDEEUYPDIGCAQQRRg8MgYIBRBFGEEyBggGEAUYQDIGCAcQRRg80gEIMzEwNWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8' />

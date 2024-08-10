@@ -1,7 +1,7 @@
 import BarraNavegacionLogin from '../components/BarraNavegacionLogin'
 import { Outlet } from 'react-router-dom'
 
-const UserLayout = () => {
+const LoginLayout = () => {
     return (
         <>
             <BarraNavegacionLogin />
@@ -10,4 +10,4 @@ const UserLayout = () => {
     )
 }
 
-export default UserLayout
+export default LoginLayout

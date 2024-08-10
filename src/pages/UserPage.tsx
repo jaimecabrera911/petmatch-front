@@ -1,4 +1,4 @@
-import UserLayout from "../layouts/UserLayout"
+import UserLayout from "../layouts/LoginLayout"
 
 
 const UserPage = () => {
